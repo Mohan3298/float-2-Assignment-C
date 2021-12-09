@@ -25,7 +25,7 @@ span{
     text-align: center;
 }
 .sub_div{
-    margin: 5px;
+    margin: 2px;
     width: 32.33333%;
     /*border: 0.5px solid lightgrey; */
     border-radius: 15px;
@@ -34,7 +34,7 @@ span{
     color: white;
 }
 .sub_div2{
-    margin: 5px;
+    margin: 2px;
     padding: 5px;
     width: 32.33333%;
     /*border: 0.5px solid lightgrey; */
@@ -62,10 +62,12 @@ a{
 .bg1{
     clear: both;
     background: rgb(211, 200, 179);
+    width: 80vw;
 }
 .bg2{
     padding: 5px;
-    margin: 10px;
+    margin: 3px;
+    width: 80vw;
 }
 input { 
     background: wheat;
@@ -114,26 +116,24 @@ input {
 }
 .sub_div3_1{
     margin-left: 5px;
-}
+} 
 #footer{
     clear: both;
     padding: 5px;
     margin-top: 20px;
     background-color: darkslategray;
-}
-/*@media only screen and ( max-width: 576px){
+} 
+@media only screen and ( max-width: 576px){
+    body{
+        width: 100%;
+    }
     #main_div{
         width: 100%;
     }
-    .sub_div, .sub_div2, .sub{
-        width: 100%;
-    }
-     .sub_div3_1, .sub_div3_2, .sub_div3_3, .sub_div3_4{
-         width: 100%;
-     }
+    
 
 }
-@media only screen and ( max-width: 768px){
+/*@media only screen and ( max-width: 768px){
     #main_div{
         width: 100%;
     }
