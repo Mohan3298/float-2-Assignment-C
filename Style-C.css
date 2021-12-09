@@ -130,55 +130,85 @@ input {
     #main_div{
         width: 100%;
     }
-    
+    .bg, .bg1{
+        width: 100%;
+    }
+    .sub_div3_1 .sub_div3_3{
+        width: 100%;
+    }
+    .sub_div3_2 .sub_div3_4{
+        width: 100%;
+    }
 
 }
-/*@media only screen and ( max-width: 768px){
+@media only screen and ( max-width: 768px){
+    body{
+        width: 100%;
+    }
     #main_div{
         width: 100%;
     }
-    .sub_div, .sub_div2, .sub{
+    .bg, .bg1{
         width: 100%;
     }
-     .sub_div3_1, .sub_div3_2, .sub_div3_3, .sub_div3_4{
-         width: 100%;
-     }
+    .sub_div3_1 .sub_div3_3{
+        width: 100%;
+    }
+    .sub_div3_2 .sub_div3_4{
+        width: 100%;
     }
 
 }
 @media only screen and ( max-width: 992px){
+    body{
+        width: 100%;
+    }
     #main_div{
         width: 100%;
     }
-    .sub_div, .sub_div2, .sub{
+    .bg, .bg1{
         width: 100%;
     }
-     .sub_div3_1, .sub_div3_2, .sub_div3_3, .sub_div3_4{
-         width: 100%;
-     }
+    .sub_div3_1 .sub_div3_3{
+        width: 100%;
+    }
+    .sub_div3_2 .sub_div3_4{
+        width: 100%;
+    }
 
 }
 @media only screen and ( max-width: 1200px){
+    body{
+        width: 100%;
+    }
     #main_div{
         width: 100%;
     }
-    .sub_div, .sub_div2, .sub{
+    .bg, .bg1{
         width: 100%;
     }
-     .sub_div3_1, .sub_div3_2, .sub_div3_3, .sub_div3_4{
-         width: 100%;
-     }
-
+    .sub_div3_1 .sub_div3_3{
+        width: 100%;
+    }
+    .sub_div3_2 .sub_div3_4{
+        width: 100%;
+    }
 }
 @media only screen and ( max-width: 1400px){
+    body{
+        width: 100%;
+    }
     #main_div{
         width: 100%;
     }
-    .sub_div, .sub_div2, .sub{
+    .bg, .bg1{
         width: 100%;
     }
-     .sub_div3_1, .sub_div3_2, .sub_div3_3, .sub_div3_4{
-         width: 100%;
-     }
+    .sub_div3_1 .sub_div3_3{
+        width: 100%;
+    }
+    .sub_div3_2 .sub_div3_4{
+        width: 100%;
+    }
 
-} */
+} 
