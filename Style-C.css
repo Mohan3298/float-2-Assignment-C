@@ -83,7 +83,7 @@ input {
 }
 .look{
     color: white;
-    font-size: -webkit-xxx-large;
+    font-size: 105px;
     text-align: center !important;
     
     
@@ -94,20 +94,26 @@ input {
 }
 .sub_div3_1, .sub_div3_3{
     float: left; 
-    width: 13.666666%;
+    width: 13%;
     padding: 3px;
     background-color: chartreuse;
     height: 21vh;
     
 }
-.sub_div3_2, .sub_div3_4{
-    float: left; 
-    width: 32.66666%;
-    background-color: rgb(104, 128, 151);
-    padding: 6px;
+#space{
+    float: left;
+    width: 14%;
     
 }
-.sub_div3_2{
+.sub_div3_2, .sub_div3_4{
+    float: left; 
+    width: 30%;
+    background-color: rgb(104, 128, 151);
+    padding: 6px;
+    height: 21vh;
+    
+}
+/* .sub_div3_2{
     margin-right: 33px;
 }
 .sub_div3_3{
@@ -115,11 +121,11 @@ input {
 }
 .sub_div3_1{
     margin-left: 3px;
-} 
+} */ 
+
 #footer{
     clear: both;
     padding: 5px;
-    margin-top: 20px;
     background-color: darkslategray;
 } 
 @media only screen (min-width: 0px) and ( max-width: 576px){
