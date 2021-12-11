@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <link rel="preconnect" href="https://fonts.googleapis.com/css?family=handwriting" crossorigin="anonymous">
     <link rel="preconnect" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel='stylesheet' href='Style-C.css'>
@@ -21,8 +21,10 @@
        ul li{
            display: inline-block;
            padding: 15px;
-           width: auto;
+          /* width: auto; */
            text-align: center;
+           margin-left: 0;
+           margin-right: 0;
            list-style: none;
            
        }
@@ -30,6 +32,7 @@
            color: white;
            background-color: greenyellow;
        }
+       
        #menu_bar{
            text-align: center;
            background: lightgray;
@@ -38,15 +41,7 @@
            text-align: center;
            width: 80vw;
        } 
-       .sub_div1{
-           float: left;
-           width: 2%;
-       }
-       .sub_div2_1{
-           float: left;
-           width: 2%;
-       }
-       }
+       
   </style>
 
 
@@ -106,7 +101,7 @@
             <br>
             <p class="plus_link "><a href="#">+</a></p>
         </div>
-        <div class="sub_div1"></div>
+        
       </div>
       <div class="bg1">
         <div class="sub_div2">
@@ -142,7 +137,9 @@
             <br>
             <a href="#"><input type="text" name="readMore" placeholder="READ MORE" size="7" readonly></a>
         </div>
-        <div class="sub_div2_1"></div>
+        <div class="sub_div2_1">
+
+        </div>
       </div>  
       <div class="bg1">
       
@@ -152,33 +149,35 @@
     
             <div class="sub_div3_2">
                 <h2>LOREUM IPSUM IS SIMPLY TEXT</h2>
-                <br>
+                
                 <p class="look1">Lorem ipsum dolor sit amet,consecttur adipisicing elit, sed do eiusmod tempor incididunt labore dolore magna aliqua.</p>
-            </div> 
-            <div id="space">
-
             </div>
-       
+            <div id="space">
+                 &nbsp;
+            </div> 
+            
             <div class="sub_div3_3">
                 <p class="look">&dollar;</p>
             </div>
     
             <div class="sub_div3_4">
                 <h2>LOREUM IPSUM IS SIMPLY TEXT</h2>
-                <br>
+                
                 <p class="look1">Lorem ipsum dolor sit amet,consecttur adipisicing elit, sed do eiusmod tempor incididunt labore dolore magna aliqua.</p>
              </div>      
       </div>
       <br>
       <!-- footer start -->
+     <div class="clear"> 
       <div id="footer">
-        <p style="font-size: 20px ; text-align: center;"> Design By Chili~Mohan@copyright2021.
+        <p style="font-size: 17px ; text-align: center;"> Design By Chili~Mohan@copyright2021.
             <img src="css-image/icons8-facebook-f-50.png" alt="facebook pic" width="20" >&nbsp;
             <img src="css-image/icons8-google-50.png" alt="google pic" width="20" >&nbsp;
             <img src="css-image/icons8-twitter-50.png" alt="twitter pic" width="20" >&nbsp;
             <img src="css-image/icons8-whatsapp-50.png" alt="whatsapp pic" width="20" >&nbsp;
         </p>
-      </div> 
+      </div>
+     </div>  
       <!-- footer end -->    
     
     </div>
