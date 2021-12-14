@@ -84,7 +84,7 @@ input {
 }
 .look1{
     color: white;
-    min-height: 21vh;
+    
     
 }
 h2{
@@ -140,7 +140,7 @@ h2{
         width: 100%;
     }
     .sub_div2, .sub_div{
-        width:32%;
+        width:31%;
 
     }
     .sub_div3_1, .sub_div3_3{
@@ -148,11 +148,11 @@ h2{
         
     }
     .sub_div3_2, .sub_div3_4{
-        min-width: 27%;
+        min-width: 26%;
         overflow: hidden ;
     }
     #space{
-        min-width: 8%;
+        width: 8%;
     }
     .look{
         font-size: 40px;
