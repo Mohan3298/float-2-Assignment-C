@@ -141,15 +141,21 @@ h2{
     }
     .sub_div2, .sub_div{
         width:31%;
+        margin: 0;
+        font-size: 15px;
 
     }
     .sub_div3_1, .sub_div3_3{
         width: 13%;
+        margin: 0;
+        font-size: 15px;
         
     }
     .sub_div3_2, .sub_div3_4{
-        min-width: 26%;
+        width: 26%;
         overflow: hidden ;
+        margin: 0;
+        font-size: 15px;
     }
     #space{
         width: 8%;
@@ -161,14 +167,14 @@ h2{
         padding-left: 0px;
         padding-top: 94px;
         padding-bottom: 94px;
-        min-height: 160px ;
+    
     }
     ul li{
         padding: 10px !important;
         font-size: 8px !important;
         margin-right: 0px !important;
     }
-    ul{
+    ul{ 
         padding-left: 0 !important;
     }
     
