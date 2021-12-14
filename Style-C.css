@@ -142,20 +142,20 @@ h2{
     .sub_div2, .sub_div{
         width:31%;
         margin: 0;
-        font-size: 15px;
+        font-size: 10px;
 
     }
     .sub_div3_1, .sub_div3_3{
         width: 13%;
         margin: 0;
-        font-size: 15px;
+        font-size: 10px;
         
     }
     .sub_div3_2, .sub_div3_4{
         width: 26%;
         overflow: hidden ;
         margin: 0;
-        font-size: 15px;
+        font-size: 10px;
     }
     #space{
         width: 8%;
